@@ -1,0 +1,50 @@
+:root {
+  font-family: sans-serif;
+}
+
+#container1 {
+  background-color: aqua;
+  display: grid;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+
+#box1 {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+#container2 {
+  display: grid;
+  height: 400px;
+  width: 400px;
+  background-color: green;
+}
+
+#box2 {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  margin: auto;
+}
+
+
+#container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: purple;
+}
+
+#box3 {
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+}
